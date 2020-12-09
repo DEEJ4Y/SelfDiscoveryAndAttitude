@@ -1,26 +1,56 @@
 a {
-  color: white;
-  text-decoration: none;
+  color: #0275d8;
+  text-decoration: underline;
 }
 
-a:hover {
-  color: #0275d8;
+hr {
+  margin: 1rem 0;
+}
+
+img {
+  border-radius: 0.3rem;
+  width: 300px;
+  margin: 0 0 1rem;
 }
 
 .container-fluid {
   padding: 0;
 }
 
+.row {
+  max-width: 976px;
+  margin: 0 auto;
+}
+
 .section {
-  padding: 2rem 0.9rem 1rem;
+  padding: 4rem 0.9rem;
+}
+
+.section-title {
+  margin-bottom: 1rem;
 }
 
 /* Navbar */
-nav {
-  padding: 0.5rem 1rem;
+.navbar {
+  padding: 1rem;
+}
+
+/* Section 3 */
+
+.tool-img {
+  margin: 1rem;
+  width: 128px;
 }
 
 /* Footer */
 .footer {
+  margin-top: 1rem;
   text-align: center;
+  color: #cccccc;
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 250px;
+  }
 }
