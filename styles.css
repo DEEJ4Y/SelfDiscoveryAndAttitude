@@ -1,5 +1,5 @@
 a {
-  color: #0275d8;
+  color: white;
   text-decoration: underline;
 }
 
@@ -11,6 +11,10 @@ img {
   border-radius: 0.3rem;
   width: 300px;
   margin: 0 0 1rem;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .container-fluid {
