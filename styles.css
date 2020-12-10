@@ -1,9 +1,10 @@
 a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
   color: #0275d8;
+  text-decoration: underline;
 }
 
 hr {
@@ -40,6 +41,14 @@ img {
 /* Navbar */
 .navbar {
   padding: 1rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #0275d8;
 }
 
 /* Section 3 */
